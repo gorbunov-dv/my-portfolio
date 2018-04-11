@@ -1,0 +1,21 @@
+.wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+.main {
+	display: table;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+	background: #000 url(../img/main-bg.jpg) center center no-repeat;
+}
+.main h1 {
+	margin-bottom: 10px;
+}
+.main-line {
+	width: 200px;
+	height: 1px;
+	background-color: #fff;
+	margin: 0 auto;
+}
