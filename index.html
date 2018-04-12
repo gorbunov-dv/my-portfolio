@@ -45,7 +45,7 @@
           <div class="col-lg-4">
             <div class="portfolio-block">
               <img src="img/portfolio/1.jpg" alt="Работа №1">
-              <a href="#">Смотреть работу</a>
+              <a data-toggle="modal" href="#work-1">Смотреть работу</a>
             </div>
           </div>
           <div class="col-lg-4">
@@ -64,7 +64,56 @@
       </div>
     </div>
 
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <strong>Дмитрий Горбунов</strong>
+            <p>Разработка сайтов <br> под ключ</p>
+          </div>
+          <div class="col-lg-6">
+            <strong>Подпишитесь</strong>
+            <div class="social-links">
+              <a href="#"><i class="icon-vk"></i></a>
+              <a href="#"><i class="icon-instagram"></i></a>
+              <a href="#"><i class="icon-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <strong>Напишите мне</strong>
+            <a href="https://vk.me/gorbunoww" class="offer-btn">Заказать сайт</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Всплывающие окна-->
+    <div class="modal fade" id="work-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Работа №1</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-5">
+                <img src="img/portfolio/1.jpg" alt="Первая работа">
+              </div>
+              <div class="col-lg-7">
+                <h4>Сайт для ресторана</h4>
+                <p>Описание работы</p>
+                <a href="https://vk.me/gorbunoww" class="modal-btn">Заказать такой сайт</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
