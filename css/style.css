@@ -86,9 +86,10 @@ a:active, a:visited, a:focus {
 	box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
 }
 .portfolio a {
-	display: inline-block;
-	margin-top: 2rem;
+	display: block;
+	margin: 2rem auto 6rem;
 	color: #333;
+	width: 17rem;
 	border-bottom: 1px solid transparent;
 }
 .portfolio a:hover {
@@ -129,7 +130,7 @@ a:active, a:visited, a:focus {
 .offer-btn {
 	display: block;
 	width: 80%;
-	max-width: 300px;
+	max-width: 200px;
 	margin: 1rem auto;
 	border: 1px solid #fff;
 	padding-top: 1rem;
@@ -170,4 +171,22 @@ a:active, a:visited, a:focus {
 	background-color: #333;
 	color: #fff;
 	text-decoration: none;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+	html {
+		font-size: 7px;
+	}
+	.footer strong {
+		margin: 3rem 0 2rem;
+		display: inline-block;
+	}
+	.social-links a {
+		font-size: 1.5rem;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+		.footer strong {
+		margin: 3rem 0 2rem;
+		display: inline-block;
+	}
 }
